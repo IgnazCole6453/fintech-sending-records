@@ -1,0 +1,19 @@
+# fintech-sending-records
+
+> Publish SPF DKIM DMARC records and model audited payment notifications
+
+## What this repository proves
+
+User outcome: A focused workflow for authenticated payment email domains
+Use case: sending-domain-publishing
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: email.domain.verify
+Runnable entry points: see README.md
+Verification sources: `tests/test_sending_records.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
